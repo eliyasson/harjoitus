@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
   }
+  body {
+    background-color: #ece6d1;
+  }
   img {
     width: 100%;
     height: auto;
@@ -47,7 +50,7 @@
     font-family: "Lucida Sans", sans-serif;
   }
   .header {
-    background-color: #9933cc;
+    background-color: #453207;
     color: #ffffff;
     padding: 15px;
   }
@@ -57,17 +60,35 @@
     padding: 0;
   }
   .menu li {
+    background-color: #7e6a12;
+    font-size: 110%;
     padding: 8px;
     margin-bottom: 7px;
-    background-color :#33b5e5;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
-  .menu li:hover {
-    background-color: #0099cc;
+  .menu li a {
+    text-decoration: none;
   }
+  .menu li:hover {
+    background-color: #F5D163;
+  }
+  a:link {		   /* linkki sivun avautuessa, vaihda valkoiseksi */
+    color: rgb(255, 255, 255);
+  }
+  a:visited { 
+    color: rgb(255, 255, 255);
+  }
+  a:hover {          /* linkki kun hiiren osoitin kohdalla, vaihda mustaksi */
+    color: rgb(0, 0, 0);
+  }
+  a:active {         /* linkki kun hiiren valinta-painiketta painetaan, vaihda oranssiksi */
+    color: blue;
+  } 
+
+
   .aside {
-    background-color: #33b5e5;
+    background-color: #675813;
     padding: 15px;
     color: #ffffff;
     text-align: center;
@@ -75,7 +96,7 @@
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }
   .footer {
-    background-color: #0099cc;
+    background-color: #453207;
     color: #ffffff;
     text-align: center;
     font-size: 12px;
