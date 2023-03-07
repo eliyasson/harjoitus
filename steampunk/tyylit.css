@@ -10,6 +10,7 @@
     height: auto;
     
   }
+  
   .row:after {
     content: "";
     clear: both;
@@ -104,7 +105,13 @@
 
   .varjo{
     box-shadow: 10px 10px 5px grey;
+    transition: transform 0.3s ease-in-out;
   } 
+  
+  .varjo:active {
+    transform: rotate(360deg);
+  }
+  
   .footer {
     background-color: #453207;
     color: #ffffff;
